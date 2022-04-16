@@ -1,6 +1,8 @@
 .model small
 .stack 100h
-.data   
+.data
+    ;db define byte, dw define word
+       
     num1 db 'd'
     num2 db ?
     char db '#'
