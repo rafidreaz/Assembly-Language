@@ -2,7 +2,6 @@ include 'EMU8086.INC'
 .model small
 .stack 100h
 .data
-    a db ?
 .code
 main proc
     ;for (int i = n; i>=0;i--)
